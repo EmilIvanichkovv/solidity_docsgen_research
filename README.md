@@ -7,6 +7,7 @@ Under `libs/contracts/contracts` there are two example contracts that are docume
 
 ## Tools
 - [solidity-docgen](https://github.com/OpenZeppelin/solidity-docgen)
+- [solc  --userdoc / --devdoc ](https://docs.soliditylang.org/en/v0.8.21/natspec-format.html#documentation-output)
 
 ## `solidity-docgen`
 solidity-docgen is a program that extracts documentation for a Solidity project.
@@ -38,15 +39,37 @@ import { docgen } from 'solidity-docgen';
 
 await docgen([{ output: solcOutput }], config);
 ```
-#### Conclusion ❌
+### Conclusion ❌
 
 Result can be examined in the `libs/contracts/docs/solidity-docgen` folder.
 
-##### Pros
+#### Pros
 - Easy to integrate with Hardhat
 - Generates well formatted markdown files
 
-##### Cons
+#### Cons
 - Does not support `json` output
 - Does not export all reference documentation fields (e.g. `@title`, `@author`, etc.)
   - https://github.com/OpenZeppelin/solidity-docgen/issues/432
+
+## `solc --devdoc`
+
+### Usage
+1. Install solc
+2. Run the following command
+
+```bash
+solc --devdoc libs/contracts/contracts/*.sol
+```
+This generates data in json format following the NatSpec format.
+Result can be examined in the `libs/contracts/docs/solc-devdoc` folder.
+
+### Conclusion ✅
+
+#### Pros
+- Easy to use
+- Supports `json` output
+- Exports all reference documentation fields
+
+#### Cons
+- The result is not pure json. Need to be parsed to be used in other tools

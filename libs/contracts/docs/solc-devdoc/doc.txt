@@ -1,0 +1,16 @@
+
+======= libs/contracts/contracts/example.sol:MyContract =======
+Developer Documentation
+{"details":"A simple smart contract to demonstrate inline documentation","kind":"dev","methods":{"addNumbers(uint256,uint256)":{"details":"Adds two numbers and returns the result","params":{"_a":"The first number","_b":"The second number"},"returns":{"_0":"The sum of `_a` and `_b`"}},"multiplyNumbers(uint256,uint256)":{"details":"Multiplies two numbers and returns the result","params":{"_a":"The first number","_b":"The second number"},"returns":{"_0":"The product of `_a` and `_b`"}},"setNumber(uint256)":{"details":"Sets the value of `myNumber`","params":{"_newValue":"The new value to set"}}},"title":"MyContract","version":1}
+
+======= libs/contracts/contracts/example2.sol:KumquatTree =======
+Developer Documentation
+{"kind":"dev","methods":{"age(uint256)":{"details":"The Alexandr N. Tetearing algorithm could increase precision","params":{"rings":"The number of rings from dendrochronological sample"},"returns":{"_0":"Age in years, rounded up for partial years"}},"leaves()":{"details":"Returns only a fixed number."}},"version":1}
+
+======= libs/contracts/contracts/example2.sol:Plant =======
+Developer Documentation
+{"kind":"dev","methods":{},"version":1}
+
+======= libs/contracts/contracts/example2.sol:Tree =======
+Developer Documentation
+{"author":"Larry A. Gardner","custom:experimental":"This is an experimental contract.","details":"All function calls are currently implemented without side effects","kind":"dev","methods":{"age(uint256)":{"details":"The Alexandr N. Tetearing algorithm could increase precision","params":{"rings":"The number of rings from dendrochronological sample"},"returns":{"_0":"Age in years, rounded up for partial years"}},"leaves()":{"details":"Returns only a fixed number."}},"title":"A simulator for trees","version":1}
