@@ -1,6 +1,9 @@
 {
   "name": "solidity_docsgen_research",
   "packageManager": "yarn@4.0.1",
+  "workspaces": [
+    "libs/*"
+  ],
   "devDependencies": {
     "@types/node": "^20.12.12",
     "prettier": "^3.2.5",
