@@ -12,6 +12,7 @@ import 'solidity-docgen';
 dotenv.config();
 
 const config: HardhatUserConfig = {
+  docgen: {pages: "files"},
   solidity: {
     version: '0.8.24',
     settings: {
