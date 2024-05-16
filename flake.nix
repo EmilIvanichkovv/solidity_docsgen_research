@@ -18,6 +18,9 @@
               nodejs
               yarn-berry
               python3
+
+              # Solidity Compiler
+              solc
             ];
           };
       };
