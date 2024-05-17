@@ -4,10 +4,27 @@
   "workspaces": [
     "libs/*"
   ],
+  "type": "module",
   "devDependencies": {
     "@types/node": "^20.12.12",
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "directory-tree": "^3.5.1",
+    "highlight.js": "^11.9.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-emoji": "^3.0.0",
+    "meow": "^13.2.0",
+    "mustache": "^4.2.0",
+    "node-emoji": "^2.1.3",
+    "pdf-from-html": "^0.1.2",
+    "soldoc": "^0.1.3-beta.2"
+  },
+  "dependenciesMeta": {
+    "soldoc": {
+      "unplugged": true
+    }
   }
 }

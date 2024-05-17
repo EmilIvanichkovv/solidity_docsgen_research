@@ -8,6 +8,7 @@ Under `libs/contracts/contracts` there are two example contracts that are docume
 ## Tools
 - [solidity-docgen](https://github.com/OpenZeppelin/solidity-docgen)
 - [solc  --userdoc / --devdoc ](https://docs.soliditylang.org/en/v0.8.21/natspec-format.html#documentation-output)
+- [soldoc](https://github.com/HQ20/soldoc)
 
 ## `solidity-docgen`
 solidity-docgen is a program that extracts documentation for a Solidity project.
@@ -73,3 +74,10 @@ Result can be examined in the `libs/contracts/docs/solc-devdoc` folder.
 
 #### Cons
 - The result is not pure json. Need to be parsed to be used in other tools
+
+## `soldoc`
+
+### Conclusion ❌
+#### Cons
+- Could not get it to work.
+- Does not seem to support `json` output
