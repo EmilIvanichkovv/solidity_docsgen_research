@@ -81,3 +81,8 @@ Result can be examined in the `libs/contracts/docs/solc-devdoc` folder.
 #### Cons
 - Could not get it to work.
 - Does not seem to support `json` output
+
+
+## Conclusion
+
+We will use patched version of `solidity-docgen`
