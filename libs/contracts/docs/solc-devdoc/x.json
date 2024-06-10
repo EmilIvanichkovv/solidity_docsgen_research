@@ -1,0 +1,253 @@
+[
+  [
+    {
+      "contract": "MyContract",
+      "functions": [
+        {
+          "name": "setNumber",
+          "signature": "function setNumber(uint256 _newValue) external",
+          "params": [
+            {
+              "name": "_newValue",
+              "type": "uint256"
+            }
+          ],
+          "natspec": {
+            "dev": "Sets the value of `myNumber`",
+            "params": [
+              {
+                "name": "_newValue",
+                "description": "The new value to set"
+              }
+            ]
+          },
+          "errors": []
+        },
+        {
+          "name": "addNumbers",
+          "signature": "function addNumbers(uint256 _a, uint256 _b) external pure returns (uint256)",
+          "params": [
+            {
+              "name": "_a",
+              "type": "uint256"
+            },
+            {
+              "name": "_b",
+              "type": "uint256"
+            }
+          ],
+          "natspec": {
+            "dev": "Adds two numbers and returns the result",
+            "params": [
+              {
+                "name": "_a",
+                "description": "The first number"
+              },
+              {
+                "name": "_b",
+                "description": "The second number"
+              }
+            ],
+            "returns": [
+              {
+                "description": "The sum of `_a` and `_b`"
+              }
+            ]
+          },
+          "errors": []
+        },
+        {
+          "name": "multiplyNumbers",
+          "signature": "function multiplyNumbers(uint256 _a, uint256 _b) external pure returns (uint256)",
+          "params": [
+            {
+              "name": "_a",
+              "type": "uint256"
+            },
+            {
+              "name": "_b",
+              "type": "uint256"
+            }
+          ],
+          "natspec": {
+            "dev": "Multiplies two numbers and returns the result",
+            "params": [
+              {
+                "name": "_a",
+                "description": "The first number"
+              },
+              {
+                "name": "_b",
+                "description": "The second number"
+              }
+            ],
+            "returns": [
+              {
+                "description": "The product of `_a` and `_b`"
+              }
+            ]
+          },
+          "errors": []
+        },
+        {
+          "name": "testCustomError",
+          "signature": "function testCustomError(uint256 _withdrawAmount) public view",
+          "params": [
+            {
+              "name": "_withdrawAmount",
+              "type": "uint256"
+            }
+          ],
+          "natspec": {
+            "notice": "Tests the custom error by attempting to withdraw an amount",
+            "params": [
+              {
+                "name": "_withdrawAmount",
+                "description": "The amount to withdraw"
+              }
+            ]
+          },
+          "errors": []
+        }
+      ],
+      "events": [
+        {
+          "name": "Deposited",
+          "eventSelector": "7a335ca07be1026936df12dc44b15c88e91c79059ee3757ab556f253d86e87e8",
+          "natspec": {
+            "dev": "Deposits a public key",
+            "params": [
+              {
+                "name": "pubkey",
+                "description": "The public key to deposit"
+              }
+            ]
+          },
+          "signature": "event Deposited(bytes pubkey)",
+          "errors": []
+        }
+      ],
+      "errors": [
+        {
+          "name": "InsufficientBalance",
+          "natspec": {
+            "notice": "Error indicating an insufficient balance",
+            "params": [
+              {
+                "name": "balance",
+                "description": "The current balance of the contract"
+              },
+              {
+                "name": "withdrawAmount",
+                "description": "The requested withdrawal amount"
+              }
+            ]
+          },
+          "signature": "error InsufficientBalance(uint256 balance, uint256 withdrawAmount)"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "contract": "Tree",
+      "functions": [
+        {
+          "name": "age",
+          "signature": "function age(uint256 rings) external pure virtual returns (uint256)",
+          "params": [
+            {
+              "name": "rings",
+              "type": "uint256"
+            }
+          ],
+          "natspec": {
+            "notice": "Calculate tree age in years, rounded up, for live trees",
+            "dev": "The Alexandr N. Tetearing algorithm could increase precision",
+            "params": [
+              {
+                "name": "rings",
+                "description": "The number of rings from dendrochronological sample"
+              }
+            ],
+            "returns": [
+              {
+                "description": "Age in years, rounded up for partial years"
+              }
+            ]
+          },
+          "errors": []
+        },
+        {
+          "name": "leaves",
+          "signature": "function leaves() external pure virtual returns (uint256)",
+          "params": [],
+          "natspec": {
+            "notice": "Returns the amount of leaves the tree has.",
+            "dev": "Returns only a fixed number."
+          },
+          "errors": []
+        }
+      ],
+      "events": [],
+      "errors": []
+    },
+    {
+      "contract": "Plant",
+      "functions": [
+        {
+          "name": "leaves",
+          "signature": "function leaves() external pure virtual returns (uint256)",
+          "params": [],
+          "natspec": {},
+          "errors": []
+        }
+      ],
+      "events": [],
+      "errors": []
+    },
+    {
+      "contract": "KumquatTree",
+      "functions": [
+        {
+          "name": "age",
+          "signature": "function age(uint256 rings) external pure returns (uint256)",
+          "params": [
+            {
+              "name": "rings",
+              "type": "uint256"
+            }
+          ],
+          "natspec": {
+            "notice": "Calculate tree age in years, rounded up, for live trees",
+            "dev": "The Alexandr N. Tetearing algorithm could increase precision",
+            "params": [
+              {
+                "name": "rings",
+                "description": "The number of rings from dendrochronological sample"
+              }
+            ],
+            "returns": [
+              {
+                "description": "Age in years, rounded up for partial years"
+              }
+            ]
+          },
+          "errors": []
+        },
+        {
+          "name": "leaves",
+          "signature": "function leaves() external pure returns (uint256)",
+          "params": [],
+          "natspec": {
+            "notice": "Return the amount of leaves that this specific kind of tree has",
+            "dev": "Returns only a fixed number."
+          },
+          "errors": []
+        }
+      ],
+      "events": [],
+      "errors": []
+    }
+  ]
+]

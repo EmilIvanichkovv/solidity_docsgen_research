@@ -948,7 +948,7 @@ __metadata:
     hardhat-contract-sizer: "npm:^2.10.0"
     hardhat-gas-reporter: "npm:^2.0.2"
     solidity-coverage: "npm:^0.8.11"
-    solidity-docgen: "npm:^0.6.0-beta.36"
+    solidity-docgen: "git+https://git@github.com:EmilIvanichkovv/solidity-docgen.git#commit=fc0dc71257da1d214980850a0bba0287a7fbd531"
     ts-node: "npm:^10.9.2"
     typechain: "npm:^8.3.2"
   languageName: unknown
@@ -5204,9 +5204,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solidity-docgen@npm:^0.6.0-beta.36":
+"solidity-docgen@git+https://git@github.com:EmilIvanichkovv/solidity-docgen.git#commit=fc0dc71257da1d214980850a0bba0287a7fbd531":
   version: 0.6.0-beta.36
-  resolution: "solidity-docgen@npm:0.6.0-beta.36"
+  resolution: "solidity-docgen@https://git@github.com:EmilIvanichkovv/solidity-docgen.git#commit=fc0dc71257da1d214980850a0bba0287a7fbd531"
   dependencies:
     handlebars: "npm:^4.7.7"
     solidity-ast: "npm:^0.4.38"

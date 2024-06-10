@@ -1,0 +1,784 @@
+Nothing to compile
+No need to generate any newer typings.
+XASXASXDA [
+  <ref *1> {
+    abstract: false,
+    baseContracts: [],
+    canonicalName: 'MyContract',
+    contractDependencies: [],
+    contractKind: 'contract',
+    documentation: {
+      id: 2,
+      nodeType: 'StructuredDocumentation',
+      src: '57:96:0',
+      text: ' @title MyContract\n' +
+        ' @dev A simple smart contract to demonstrate inline documentation'
+    },
+    fullyImplemented: true,
+    id: 47,
+    linearizedBaseContracts: [ 47 ],
+    name: [Getter],
+    nameLocation: '163:10:0',
+    nodeType: 'ContractDefinition',
+    nodes: [ [Object], [Object], [Object], [Object] ],
+    scope: 48,
+    src: '154:883:0',
+    usedErrors: [],
+    usedEvents: [],
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: undefined,
+      page: 'example.md',
+      item: [Circular *1]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    modifiers: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  },
+  <ref *2> {
+    constant: false,
+    documentation: {
+      id: 3,
+      nodeType: 'StructuredDocumentation',
+      src: '180:39:0',
+      text: 'A public variable to store a number'
+    },
+    functionSelector: '23fd0e40',
+    id: 5,
+    mutability: 'mutable',
+    name: [Getter],
+    nameLocation: '239:8:0',
+    nodeType: 'VariableDeclaration',
+    scope: 47,
+    src: '224:23:0',
+    stateVariable: true,
+    storageLocation: 'default',
+    typeDescriptions: { typeIdentifier: 't_uint256', typeString: 'uint256' },
+    typeName: {
+      id: 4,
+      name: 'uint256',
+      nodeType: 'ElementaryTypeName',
+      src: '224:7:0',
+      typeDescriptions: [Object]
+    },
+    visibility: 'public',
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: [Object],
+      page: 'example.md',
+      item: [Circular *2]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    modifiers: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  },
+  <ref *3> {
+    body: { id: 15, nodeType: 'Block', src: '403:37:0', statements: [Array] },
+    documentation: {
+      id: 6,
+      nodeType: 'StructuredDocumentation',
+      src: '254:97:0',
+      text: ' @dev Sets the value of `myNumber`\n' +
+        ' @param _newValue The new value to set'
+    },
+    functionSelector: '3fb5c1cb',
+    id: 16,
+    implemented: true,
+    kind: 'function',
+    modifiers: [Getter],
+    name: [Getter],
+    nameLocation: '365:9:0',
+    nodeType: 'FunctionDefinition',
+    parameters: {
+      id: 9,
+      nodeType: 'ParameterList',
+      parameters: [Array],
+      src: '374:19:0'
+    },
+    returnParameters: {
+      id: 10,
+      nodeType: 'ParameterList',
+      parameters: [],
+      src: '403:0:0'
+    },
+    scope: 47,
+    src: '356:84:0',
+    stateMutability: 'nonpayable',
+    virtual: false,
+    visibility: 'external',
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: [Object],
+      page: 'example.md',
+      item: [Circular *3]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  },
+  <ref *4> {
+    body: { id: 30, nodeType: 'Block', src: '699:31:0', statements: [Array] },
+    documentation: {
+      id: 17,
+      nodeType: 'StructuredDocumentation',
+      src: '446:172:0',
+      text: ' @dev Adds two numbers and returns the result\n' +
+        ' @param _a The first number\n' +
+        ' @param _b The second number\n' +
+        ' @return The sum of `_a` and `_b`'
+    },
+    functionSelector: 'ef9fc50b',
+    id: 31,
+    implemented: true,
+    kind: 'function',
+    modifiers: [Getter],
+    name: [Getter],
+    nameLocation: '632:10:0',
+    nodeType: 'FunctionDefinition',
+    parameters: {
+      id: 22,
+      nodeType: 'ParameterList',
+      parameters: [Array],
+      src: '642:24:0'
+    },
+    returnParameters: {
+      id: 25,
+      nodeType: 'ParameterList',
+      parameters: [Array],
+      src: '689:9:0'
+    },
+    scope: 47,
+    src: '623:107:0',
+    stateMutability: 'pure',
+    virtual: false,
+    visibility: 'external',
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: [Object],
+      page: 'example.md',
+      item: [Circular *4]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  },
+  <ref *5> {
+    body: {
+      id: 45,
+      nodeType: 'Block',
+      src: '1004:31:0',
+      statements: [Array]
+    },
+    documentation: {
+      id: 32,
+      nodeType: 'StructuredDocumentation',
+      src: '736:182:0',
+      text: ' @dev Multiplies two numbers and returns the result\n' +
+        ' @param _a The first number\n' +
+        ' @param _b The second number\n' +
+        ' @return The product of `_a` and `_b`'
+    },
+    functionSelector: 'd3f3cd7b',
+    id: 46,
+    implemented: true,
+    kind: 'function',
+    modifiers: [Getter],
+    name: [Getter],
+    nameLocation: '932:15:0',
+    nodeType: 'FunctionDefinition',
+    parameters: {
+      id: 37,
+      nodeType: 'ParameterList',
+      parameters: [Array],
+      src: '947:24:0'
+    },
+    returnParameters: {
+      id: 40,
+      nodeType: 'ParameterList',
+      parameters: [Array],
+      src: '994:9:0'
+    },
+    scope: 47,
+    src: '923:112:0',
+    stateMutability: 'pure',
+    virtual: false,
+    visibility: 'external',
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: [Object],
+      page: 'example.md',
+      item: [Circular *5]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  },
+  <ref *6> {
+    abstract: false,
+    baseContracts: [],
+    canonicalName: 'Tree',
+    contractDependencies: [],
+    contractKind: 'contract',
+    documentation: {
+      id: 50,
+      nodeType: 'StructuredDocumentation',
+      src: '70:269:1',
+      text: '@title A simulator for trees\n' +
+        ' @author Larry A. Gardner\n' +
+        ' @notice You can use this contract for only the most basic simulation\n' +
+        ' @dev All function calls are currently implemented without side effects\n' +
+        ' @custom:experimental This is an experimental contract.'
+    },
+    fullyImplemented: true,
+    id: 73,
+    linearizedBaseContracts: [ 73 ],
+    name: [Getter],
+    nameLocation: '348:4:1',
+    nodeType: 'ContractDefinition',
+    nodes: [ [Object], [Object] ],
+    scope: 113,
+    src: '339:590:1',
+    usedErrors: [],
+    usedEvents: [],
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: undefined,
+      page: 'example2.md',
+      item: [Circular *6]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    modifiers: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  },
+  <ref *7> {
+    body: { id: 62, nodeType: 'Block', src: '705:33:1', statements: [Array] },
+    documentation: {
+      id: 51,
+      nodeType: 'StructuredDocumentation',
+      src: '359:273:1',
+      text: '@notice Calculate tree age in years, rounded up, for live trees\n' +
+        ' @dev The Alexandr N. Tetearing algorithm could increase precision\n' +
+        ' @param rings The number of rings from dendrochronological sample\n' +
+        ' @return Age in years, rounded up for partial years'
+    },
+    functionSelector: '6ba61782',
+    id: 63,
+    implemented: true,
+    kind: 'function',
+    modifiers: [Getter],
+    name: [Getter],
+    nameLocation: '646:3:1',
+    nodeType: 'FunctionDefinition',
+    parameters: {
+      id: 54,
+      nodeType: 'ParameterList',
+      parameters: [Array],
+      src: '649:15:1'
+    },
+    returnParameters: {
+      id: 57,
+      nodeType: 'ParameterList',
+      parameters: [Array],
+      src: '695:9:1'
+    },
+    scope: 73,
+    src: '637:101:1',
+    stateMutability: 'pure',
+    virtual: true,
+    visibility: 'external',
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: [Object],
+      page: 'example2.md',
+      item: [Circular *7]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  },
+  <ref *8> {
+    body: { id: 71, nodeType: 'Block', src: '902:25:1', statements: [Array] },
+    documentation: {
+      id: 64,
+      nodeType: 'StructuredDocumentation',
+      src: '744:96:1',
+      text: '@notice Returns the amount of leaves the tree has.\n' +
+        ' @dev Returns only a fixed number.'
+    },
+    functionSelector: 'e7ede060',
+    id: 72,
+    implemented: true,
+    kind: 'function',
+    modifiers: [Getter],
+    name: [Getter],
+    nameLocation: '854:6:1',
+    nodeType: 'FunctionDefinition',
+    parameters: {
+      id: 65,
+      nodeType: 'ParameterList',
+      parameters: [],
+      src: '860:2:1'
+    },
+    returnParameters: {
+      id: 68,
+      nodeType: 'ParameterList',
+      parameters: [Array],
+      src: '892:9:1'
+    },
+    scope: 73,
+    src: '845:82:1',
+    stateMutability: 'pure',
+    virtual: true,
+    visibility: 'external',
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: [Object],
+      page: 'example2.md',
+      item: [Circular *8]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  },
+  <ref *9> {
+    abstract: false,
+    baseContracts: [],
+    canonicalName: 'Plant',
+    contractDependencies: [],
+    contractKind: 'contract',
+    fullyImplemented: true,
+    id: 82,
+    linearizedBaseContracts: [ 82 ],
+    name: [Getter],
+    nameLocation: '940:5:1',
+    nodeType: 'ContractDefinition',
+    nodes: [ [Object] ],
+    scope: 113,
+    src: '931:105:1',
+    usedErrors: [],
+    usedEvents: [],
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: undefined,
+      page: 'example2.md',
+      item: [Circular *9]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    modifiers: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  },
+  <ref *10> {
+    body: {
+      id: 80,
+      nodeType: 'Block',
+      src: '1009:25:1',
+      statements: [Array]
+    },
+    functionSelector: 'e7ede060',
+    id: 81,
+    implemented: true,
+    kind: 'function',
+    modifiers: [Getter],
+    name: [Getter],
+    nameLocation: '961:6:1',
+    nodeType: 'FunctionDefinition',
+    parameters: {
+      id: 74,
+      nodeType: 'ParameterList',
+      parameters: [],
+      src: '967:2:1'
+    },
+    returnParameters: {
+      id: 77,
+      nodeType: 'ParameterList',
+      parameters: [Array],
+      src: '999:9:1'
+    },
+    scope: 82,
+    src: '952:82:1',
+    stateMutability: 'pure',
+    virtual: true,
+    visibility: 'external',
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: [Object],
+      page: 'example2.md',
+      item: [Circular *10]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  },
+  <ref *11> {
+    abstract: false,
+    baseContracts: [ [Object], [Object] ],
+    canonicalName: 'KumquatTree',
+    contractDependencies: [],
+    contractKind: 'contract',
+    fullyImplemented: true,
+    id: 112,
+    linearizedBaseContracts: [ 112, 82, 73 ],
+    name: [Getter],
+    nameLocation: '1047:11:1',
+    nodeType: 'ContractDefinition',
+    nodes: [ [Object], [Object] ],
+    scope: 113,
+    src: '1038:345:1',
+    usedErrors: [],
+    usedEvents: [],
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: undefined,
+      page: 'example2.md',
+      item: [Circular *11]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    modifiers: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  },
+  <ref *12> {
+    baseFunctions: [ 63 ],
+    body: {
+      id: 98,
+      nodeType: 'Block',
+      src: '1149:33:1',
+      statements: [Array]
+    },
+    functionSelector: '6ba61782',
+    id: 99,
+    implemented: true,
+    kind: 'function',
+    modifiers: [Getter],
+    name: [Getter],
+    nameLocation: '1089:3:1',
+    nodeType: 'FunctionDefinition',
+    overrides: {
+      id: 90,
+      nodeType: 'OverrideSpecifier',
+      overrides: [],
+      src: '1117:8:1'
+    },
+    parameters: {
+      id: 89,
+      nodeType: 'ParameterList',
+      parameters: [Array],
+      src: '1092:15:1'
+    },
+    returnParameters: {
+      id: 93,
+      nodeType: 'ParameterList',
+      parameters: [Array],
+      src: '1139:9:1'
+    },
+    scope: 112,
+    src: '1080:102:1',
+    stateMutability: 'pure',
+    virtual: false,
+    visibility: 'external',
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: [Object],
+      page: 'example2.md',
+      item: [Circular *12]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  },
+  <ref *13> {
+    baseFunctions: [ 72, 81 ],
+    body: {
+      id: 110,
+      nodeType: 'Block',
+      src: '1356:25:1',
+      statements: [Array]
+    },
+    documentation: {
+      id: 100,
+      nodeType: 'StructuredDocumentation',
+      src: '1188:92:1',
+      text: 'Return the amount of leaves that this specific kind of tree has\n' +
+        ' @inheritdoc Tree'
+    },
+    functionSelector: 'e7ede060',
+    id: 111,
+    implemented: true,
+    kind: 'function',
+    modifiers: [Getter],
+    name: [Getter],
+    nameLocation: '1294:6:1',
+    nodeType: 'FunctionDefinition',
+    overrides: {
+      id: 104,
+      nodeType: 'OverrideSpecifier',
+      overrides: [Array],
+      src: '1312:21:1'
+    },
+    parameters: {
+      id: 101,
+      nodeType: 'ParameterList',
+      parameters: [],
+      src: '1300:2:1'
+    },
+    returnParameters: {
+      id: 107,
+      nodeType: 'ParameterList',
+      parameters: [Array],
+      src: '1346:9:1'
+    },
+    scope: 112,
+    src: '1285:96:1',
+    stateMutability: 'pure',
+    virtual: false,
+    visibility: 'external',
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: [Object],
+      page: 'example2.md',
+      item: [Circular *13]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  }
+]
+XASXASXDA [
+  <ref *1> {
+    abstract: false,
+    baseContracts: [],
+    canonicalName: 'MyContract',
+    contractDependencies: [],
+    contractKind: 'contract',
+    documentation: {
+      id: 2,
+      nodeType: 'StructuredDocumentation',
+      src: '57:96:0',
+      text: ' @title MyContract\n' +
+        ' @dev A simple smart contract to demonstrate inline documentation'
+    },
+    fullyImplemented: true,
+    id: 47,
+    linearizedBaseContracts: [ 47 ],
+    name: [Getter],
+    nameLocation: '163:10:0',
+    nodeType: 'ContractDefinition',
+    nodes: [ [Object], [Object], [Object], [Object] ],
+    scope: 48,
+    src: '154:883:0',
+    usedErrors: [],
+    usedEvents: [],
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: undefined,
+      page: 'example.md',
+      item: [Circular *1]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    modifiers: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  }
+]
+XASXASXDA [
+  <ref *1> {
+    abstract: false,
+    baseContracts: [],
+    canonicalName: 'MyContract',
+    contractDependencies: [],
+    contractKind: 'contract',
+    documentation: {
+      id: 2,
+      nodeType: 'StructuredDocumentation',
+      src: '57:96:0',
+      text: ' @title MyContract\n' +
+        ' @dev A simple smart contract to demonstrate inline documentation'
+    },
+    fullyImplemented: true,
+    id: 47,
+    linearizedBaseContracts: [ 47 ],
+    name: [Getter],
+    nameLocation: '163:10:0',
+    nodeType: 'ContractDefinition',
+    nodes: [ [Object], [Object], [Object], [Object] ],
+    scope: 48,
+    src: '154:883:0',
+    usedErrors: [],
+    usedEvents: [],
+    __item_context: {
+      build: [Object],
+      file: [Object],
+      contract: undefined,
+      page: 'example.md',
+      item: [Circular *1]
+    },
+    type: [Getter],
+    natspec: [Getter],
+    fullName: [Getter],
+    signature: [Getter],
+    params: [Getter],
+    returns: [Getter],
+    items: [Getter],
+    functions: [Getter],
+    events: [Getter],
+    modifiers: [Getter],
+    errors: [Getter],
+    variables: [Getter],
+    types: [Getter]
+  }
+]
+XASXASXDA addNumbers
+XASXASXDA undefined
+XASXASXDA {
+  dev: 'Adds two numbers and returns the result',
+  params: [
+    { name: '_a', description: 'The first number' },
+    { name: '_b', description: 'The second number' }
+  ],
+  returns: [ { description: 'The sum of `_a` and `_b`' } ]
+}
+XASXASXDA []

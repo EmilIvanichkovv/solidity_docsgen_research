@@ -27,7 +27,7 @@
     "hardhat-contract-sizer": "^2.10.0",
     "hardhat-gas-reporter": "^2.0.2",
     "solidity-coverage": "^0.8.11",
-    "solidity-docgen": "^0.6.0-beta.36",
+    "solidity-docgen": "git+https://git@github.com:EmilIvanichkovv/solidity-docgen.git#commit=fc0dc71257da1d214980850a0bba0287a7fbd531",
     "ts-node": "^10.9.2",
     "typechain": "^8.3.2"
   }
